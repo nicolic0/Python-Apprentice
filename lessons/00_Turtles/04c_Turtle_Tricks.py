@@ -20,6 +20,21 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 
 ... # Your code here
+tina.hideturtle()
+tina.penup()
+tina.left(90)
+tina.forward(200)
+tina.left(90)
+tina.forward(270)
+tina.right(180)
+
+tina.showturtle()
+tina.forward(210)
+tina.write("follow me!!")
+tina.forward(300)
+
+
+
 
 turtle.exitonclick()                    # Close the window when we click on it
 
