@@ -28,12 +28,12 @@ tina.right(270)
 tina.forward(150)
 tina.left(90)
 tina.forward(90)
+tina.left(90)
+tina.forward(90)
+tina.right(90)
+tina.forward(40)
 tina.pendown()
-tina.circle(20)
-tina.left(180)
-tina.forward(5)
-tina.circle(10)
-
+tina.circle(100)
 
 
 
