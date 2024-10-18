@@ -13,27 +13,18 @@ to see how to use the turtle commands.
 # These lines are needed in most turtle programs
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
-tina = turtle.Turtle()                  # Create a turtle named tina
+nick = turtle.Turtle()                  # Create a turtle named tina
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 
 
 ... # Your code here
-tina.speed(1)
-tina.penup()
-tina.left(90) 
-tina.forward(200)
-tina.right(270)
-tina.forward(150)
-tina.left(90)
-tina.forward(90)
-tina.left(90)
-tina.forward(90)
-tina.right(90)
-tina.forward(40)
-tina.pendown()
-tina.circle(100)
+nick.
+
+
+
+
 
 
 
