@@ -49,7 +49,7 @@ tina.pendown()
 
 colors = ["red", "blue", "green", "pink", "yellow"] # define a list of colors
 
-for color in range(150):
+for color in range(1000):
     tina.color(random.choice(colors))
     tina.fillcolor(random.choice(colors))
     tina.speed(0)
@@ -75,7 +75,7 @@ for color in range(150):
 
     tina.pendown()
     if color %10==0:
-        flameSize+=5 
+        flameSize+=2  
 
                                    # loop through the colors
      # Your code here
