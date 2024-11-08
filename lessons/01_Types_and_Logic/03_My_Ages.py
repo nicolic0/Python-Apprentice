@@ -32,18 +32,31 @@ messagebox.showinfo('What you are', "You are a baby.")
 """
 
 from tkinter import messagebox, simpledialog, Tk # import required modules
-
+import turtle
+age=simpledialog.askinteger(title="",prompt="what is you age sir")
 window = Tk()     # Create a window object
 window.withdraw() # Hide the window; we just want to see pop ups
-
 # Ask the user's age
 
-# Use if statements to determine the age group
+# Use if statements to determine dr3the age group
 # and create a message
 
 # Show the message to the user
 
-
+if age > 0 and age < 3:
+    print("baby")
+if age > 2 and age < 6:
+    print ("toddler")
+if age > 5 and age < 13:
+    print ("child")
+if age > 12 and age < 20:
+    print("teenager")
+if age > 19 and age < 65:
+    print ("adult")
+if age > 64:
+    print ("you old geezer")
+if age > 11 and age < 13:
+    print ("you are goated")
 
 window.mainloop()  # Keeps the window open
 
